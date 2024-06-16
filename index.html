@@ -6,46 +6,133 @@
       <title> Vertical menu with gooey effect on hover Example </title>
       <!-- Style CSS -->
       <link rel="stylesheet" href="./css/style.css">
-</head>
-  <body>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
-        </head>
-            <main>
+  </head>
+        <body>
               <nav class="navbar">
-        <ul class="navbar__menu">
-          <li class="navbar__item">
-            <a href="#" class="navbar__link"><i data-feather="home"></i><span>Home</span></a>
-          </li>
-          <li class="navbar__item">
-            <a href="#" class="navbar__link"><i data-feather="message-square"></i><span>Messages</span></a>        
-          </li>
-          <li class="navbar__item">
-            <a href="#" class="navbar__link"><i data-feather="users"></i><span>Customer</span></a>        
-          </li>
-          <li class="navbar__item">
-            <a href="#" class="navbar__link"><i data-feather="folder"></i><span>Projects</span></a>        
-          </li>
-          <li class="navbar__item">
-            <a href="#" class="navbar__link"><i data-feather="archive"></i><span>Resources</span></a>        
-          </li>
-          <li class="navbar__item">
-            <a href="#" class="navbar__link"><i data-feather="help-circle"></i><span>Help</span></a>        
-          </li>
-          <li class="navbar__item">
-            <a href="#" class="navbar__link"><i data-feather="settings"></i><span>Settings</span></a>        
-          </li>
-        </ul>
-      </nav>
-              <!-- END EDMO HTML (Happy Coding!)-->
-            </main>
-            <div class="image">
-              <img src="background.jpg" alt="">
-              <img src="./ht0.jpg" alt="">
-              <img src="./ht2.jpg" alt="">
-            </div>
+                <div class="welcome-message">
+                  <h2>Welcome to our system😊😊</h2>
+                </div>
+                <ul class="navbar__menu">
+                  <li class="navbar__item">
+                    <a href="#" class="navbar__link"><i data-feather="home"></i><span>Home</span></a>
+                  </li>
+                  <li class="navbar__item">
+                    <a href="#" class="navbar__link"><i data-feather="message-square"></i><span>Messages</span></a>        
+                  </li>
+                  <li class="navbar__item">
+                    <a href="#" class="navbar__link"><i data-feather="users"></i><span>Customer</span></a>        
+                  </li>
+                  <li class="navbar__item">
+                    <a href="#" class="navbar__link"><i data-feather="folder"></i><span>Projects</span></a>        
+                  </li>
+                  <li class="navbar__item">
+                    <a href="#" class="navbar__link"><i data-feather="archive"></i><span>Resources</span></a>        
+                  </li>
+                  <li class="navbar__item">
+                    <a href="#" class="navbar__link"><i data-feather="help-circle"></i><span>Help</span></a>        
+                  </li>
+                  <li class="navbar__item">
+                    <a href="#" class="navbar__link"><i data-feather="settings"></i><span>Settings</span></a>        
+                  </li>
+                </ul>
+              </nav>
+            
+              <div class="title">
+                <h1>Hotels that use Our Management System</h1>
+              </div>
+
+              <div class="image-container">
+               
+                <div class="image-item">
+                   <img src="background.jpg" alt="Background">
+                   <div class="image-details">
+                    <h2>(HN) Hotel & Spa: </h2>
+                    <p> 
+                      - Located in a Italy Venice.
+                    </p>
+                  </div>
+                </div>
+                <div class="image-item">
+                   <img src="./ht0.jpg" alt="HT0">
+                   <div class="image-details">
+                    <h2> Boutique Charm in (CN) </h2>
+                    <p> 
+                      - Located in a picturesque (CN) traditional village. 
+                    </p>
+                  </div>
+                </div>
+                <div class="image-item">
+                   <img src="./ht2.jpg" alt="HT2">
+                   <div class="image-details">
+                    <h2> Urban Elegance at (HN) Hotel </h2>
+                    <p> 
+                      - Situated in the heart of (CN).
+                    </p>
+                  </div>
+                </div>
+             </div>
+             <div class="about-us">
+
+        <section>
+          <div class="description section-item ">
+            <h2 style="color:#27a4f1;">About Us</h2>
+            <p>☆ This API is designed to manage a variety of operations for a food delivery application. </p>
+            <p>☆ It includes endpoints for managing users, restaurants, orders, drivers, and other related entities. </p>
+          </div>
+
+          <h2>Key Features</h2>
+
+        
+          <ul class="section-item">
+            <h3>★ User Management</h3>
+              <li>Endpoints for creating, updating, and retrieving user information.</li>
+              <li>Includes authentication routes for login and registration.</li>
+          </ul>
+
+          <ul class="section-item">
+            <h3>★ Restaurant Management</h3>
+              <li>Endpoints for managing restaurant details, including adding new restaurants, updating restaurant information, and retrieving restaurant data.</li>
+          </ul>
+
+          <ul class="section-item">
+          <h3>★ Order Management</h3>
+              <li>Comprehensive order handling, including creating orders, updating order statuses, and retrieving order details.</li>
+              <li>Integrates with menu items and order statuses for detailed order tracking.</li>
+          </ul>
+
+          <ul class="section-item">
+            <h3> ★ Address and Location Handling</h3>
+              <li>Endpoints for managing delivery addresses, states, and cities.</li>
+              <li>Allows users to add, update, and retrieve address information.</li>
+          </ul>
+
+
+          <ul class="section-item">
+            <h3>★ Driver Management</h3>
+              <li>Managing driver information and their statuses.</li>
+              <li>Endpoints for updating driver details and tracking their delivery status.</li>
+          </ul>
+
+
+          <ul class="section-item">
+            <h3>★ Menu and Category Management</h3>
+              <li>Managing menu items and their categories.</li>
+              <li>Allows for creating, updating, and retrieving menu details.</li>
+          </ul>
+
+          <ul class="section-item">    
+          <h3>★ Comment and Review System</h3>
+              <li>Endpoints for adding comments and reviews to orders and restaurants.</li>
+              <li>Helps in maintaining feedback and improving service quality.</li>
+          </ul>
+      </section>
+
+             </div>
                 <script src='https://unpkg.com/feather-icons'></script>
             <!-- Script JS -->
             <script src="./script.js"></script>
             <!--$%analytics%$-->
+            <p>&copy; 2024 Food Delivery API. All rights reserved.</p>
    </body>
 </html>
